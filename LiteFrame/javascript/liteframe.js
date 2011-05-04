@@ -162,7 +162,6 @@ if (!window.$_LITE_) {
 				},
 				dataType: 'json',
 				type: 'POST',
-				context: config.scope || document.body,
 				url: $_LITE_.Application.GetApplicationURL('jsonrpc')
 		  	};
 		  	delete config.context;
